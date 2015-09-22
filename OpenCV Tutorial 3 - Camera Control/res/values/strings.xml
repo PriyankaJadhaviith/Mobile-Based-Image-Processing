@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">ccSVM</string>
+    <string name="action_settings">Settings</string>
+    <string name="get_tv_nocc">get color values</string>
+    <string name="get_tv_withcc">color values with CC</string>
+    <string name="svm1">SVM_nocc</string>
+    <string name="svm2">SVM_withcc</string>
+      <string name="text1">Result_SVM</string>
+</resources>

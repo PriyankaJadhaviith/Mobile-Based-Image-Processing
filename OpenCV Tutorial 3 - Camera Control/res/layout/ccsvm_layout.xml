@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:background="@drawable/blue_bg"
+ >
+    
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+	    <Button
+	        android:id="@+id/button_nocc"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	     	android:text="@string/get_tv_nocc" />
+	    <Button
+	        android:id="@+id/button_withcc"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/button_nocc"
+	        android:text="@string/get_tv_withcc" />
+	    
+	     
+    </RelativeLayout>
+<RelativeLayout  android:id="@+id/r2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r3"
+        android:orientation="horizontal" >
+    
+     <Button
+	        android:id="@+id/button_svm1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/svm1" />
+	        <Button
+	        android:id="@+id/button_svm2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/button_svm1"
+	        android:text="@string/svm2" />
+</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/r3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r1" >
+
+	<Button
+           android:id="@+id/button_selectimg"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Select image" />
+	
+</RelativeLayout>
+
+        
+        
+    <RelativeLayout
+    android:id="@+id/r4"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/r2"
+    >
+	<TextView
+            android:id="@+id/svm_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text1"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp" />
+      <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/svm_tv"
+        android:layout_height="wrap_content"
+        />
+           </RelativeLayout>    
+    </RelativeLayout>
